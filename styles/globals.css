@@ -12,12 +12,14 @@ body {
 
 topbar {
   display: flex;
+  padding-right: 2rem;
+  padding-left: 2rem;
   flex-direction: row;
   justify-content: space-between;
 }
 
 leftitem {
-  justify-content: left;
+  justify-content: left !important;
 }
 
 rightitem {
@@ -29,7 +31,8 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center align-items
+  justify-content: center;
+  align-items: center;
 }
 
 code {
@@ -43,6 +46,4 @@ code {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
