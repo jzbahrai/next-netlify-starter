@@ -33,8 +33,11 @@ export default function p1eng() {
       </Head>
 
       <main>
-        <Header title="Bev" />
-        
+        <Header
+          left={<h1 className="title" >Bev</h1>}
+          right={<p>Windy 11°</p>}
+        />
+
         <section>
           <Header title="Recent activity" />
           <ul>
