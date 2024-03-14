@@ -39,7 +39,7 @@ export default function p1eng() {
         />
 
         <section>
-          <Header title="Recent activity" />
+          <h1> Recent activity</h1>
           <ul>
             {recentActivity.map((activity, index) => (
               <li key={index}>{activity}</li>
@@ -48,7 +48,7 @@ export default function p1eng() {
         </section>
 
         <section>
-          <Header title="Current activity" />
+          <h1> Current activity</h1>
           <ul>
             {currentActivity.map((activity, index) => (
               <li key={index}>{activity}</li>
@@ -57,7 +57,7 @@ export default function p1eng() {
         </section>
 
         <section>
-          <Header title="In the Future" />
+          <h1> Future Activity </h1>
           <ul>
             {futureActivity.map((activity, index) => (
               <li key={index}>{activity}</li>
@@ -67,6 +67,6 @@ export default function p1eng() {
       </main>
 
       <Footer />
-    </div>
+    </div >
   )
 }

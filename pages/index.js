@@ -15,18 +15,13 @@ export default function Home() {
           left={<h1>Bev</h1>}
           right={<p>Weather goes here</p>}
         />
-        <h1>TEST</h1>
-        <div class="container">
-
-          <p>You're chilling</p>
-
-          <div>
-            <p>test</p>
-          </div>
+        <div class='container'>
+          <h1>How can I help you?</h1>
+          <input type="text" />
         </div>
-      </main>
+      </main >
 
       <Footer />
-    </div>
+    </div >
   )
 }
