@@ -20,7 +20,7 @@ export default function Notify2050() {
           </header>
           <p>Notify becomes a layer in the many gov APIs. The APIs are accessible by everyone, from public to companies offering services.</p>
           <Link href="/p1eng">
-            <a>Next</a>
+            Next
           </Link>
         </section>
       </main>
