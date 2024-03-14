@@ -11,12 +11,6 @@ export default function Home() {
       </Head>
 
       <main>
-<<<<<<< Updated upstream
-        <Header title="Welcome Bev!" />
-        <p className="description">
-          How can I help you? <code>pages/index.js</code>
-        </p>
-=======
         <bev>
           <h1>Bev</h1>
         </bev>
@@ -30,7 +24,6 @@ export default function Home() {
             <p>test</p>
           </div>
         </div>
->>>>>>> Stashed changes
       </main>
 
       <Footer />
