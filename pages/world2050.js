@@ -10,9 +10,11 @@ export default function world2050() {
         <title>World in 2050</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Header title="What does the world look like in 2050?" />
+      <Header
+          left={<h1>What does the world look like in 2050?</h1>}
+       />
       <main>
-        <Header title="What does the world look like in 2050?" />
         
         <section>
           <header>

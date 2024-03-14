@@ -32,12 +32,11 @@ export default function p1eng() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header
+        left={<h1>Bev</h1>}
+        right={<p>Windy 11°</p>}
+      />
       <main>
-        <Header
-          left={<h1 className="title" >Bev</h1>}
-          right={<p>Windy 11°</p>}
-        />
-
         <section>
           <h1> Recent activity</h1>
           <ul>
