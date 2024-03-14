@@ -32,9 +32,12 @@ export default function p1spanish() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header
+        left={<h1>Bev</h1>}
+        right={<p>Windy 11°</p>}
+      />
+
       <main>
-        <Header title="Bev" />
-        
         <section>
           <h1>Actividad reciente</h1>
           <ul>
