@@ -10,6 +10,10 @@ body {
 * {
   box-sizing: border-box;
 }
+::selection {
+  background-color: #FFCC49;
+  color: black;
+}
 
 topbar {
   display: flex;
@@ -43,8 +47,101 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
 }
 
+header {
+max-width: 1200px;
+  width: 100%;
+  padding: 4rem;
+}
+.split {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 1rem;
+  border-bottom: 2px solid #509DC4;
+}
+
 .container {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+section {
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
+  max-width: 1200px;
+  position: relative;
+  padding: 4rem;
+  gap: 2rem;
+}
+
+.bg-image {
+  z-index: -9;
+  pointer-events: none;
+  user-select: none;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1;
+  max-width: 45ch;
+  text-wrap: balance;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 525;
+  line-height: 1;
+
+  max-width: 25ch;
+  text-wrap: balance;
+}
+
+card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 600px;
+  gap: 4rem;
+}
+
+card h3 {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+  max-width: 30ch;
+  text-wrap: balance;
+  font-weight: 575;
+}
+
+p {
+  max-width: 50ch;
+}
+
+ul {
+  font-size: 1.5rem;
+  line-height: 2;
+  padding: 0;
+  width: 50ch;
+}
+
+ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: baseline;
+  text-wrap: balance;
+}
+
+ul li:before {
+  content: "";
+  width: 2rem;
+  height: 2px;
+  background-color: #47a;
+  display: inline-block;
+  transform-origin: left center;
+  transform: translateY(-0.5ex) translateX(-0.5rem);
+  mix-blend-mode: darken;
+  flex-shrink: 0;
 }
