@@ -22,7 +22,7 @@ export default function Home() {
               accessible by everyone, from public servants to individuals to
               companies offering services.
             </p>
-            <Link href="/p1eng">Next</Link>
+            <Link href="/prompt">Next</Link>
           </div>
           <Image src="svgs/shape-a.svg" fill className="bg-image" />
         </section>
