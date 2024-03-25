@@ -109,8 +109,6 @@ card {
   justify-content: space-between;
   max-width: 600px;
   gap: 4rem;
-  flex-wrap: wrap;
-  width: 100%;
 }
 
 card h3 {
