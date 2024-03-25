@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
 import Footer from "@components/Footer";
-import { MaskSad } from "@phosphor-icons/react";
 import Image from "next/image";
 
 export default function Home() {
