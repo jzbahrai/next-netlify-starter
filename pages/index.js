@@ -121,6 +121,58 @@ export default function Home() {
             </ul>
           </div>
         </section>
+        <section>
+          <h2>Meet Bev</h2>
+          <split>
+            <p>
+              Bev is a veteran of the Royal Canadian Navy, who is 42, and is
+              newly retired from the military
+            </p>
+            <Image src="/bev/bev.png" width="300" height="350" />
+          </split>
+          <div
+            style={{
+              position: "relative",
+              padding: 80,
+              paddingBottom: 180,
+              marginTop: -150,
+              fontSize: "var(--font-size-large)",
+            }}
+          >
+            <p>
+              A while back, Bev asked Devin, a software engineering AI to come
+              up with a tool to help navigate life events and the government.
+              Devin used Notify 2050 to fulfil Bev’s request
+            </p>
+            <Image src="/svgs/shape-c.svg" fill style={{ zIndex: -9 }} />
+          </div>
+          <split style={{ marginTop: -150 }}>
+            <Image
+              src="/bev/computer.png"
+              width="400"
+              height="260"
+              style={{ zIndex: -19 }}
+            />
+            <div>
+              <p>
+                This tool runs on Bev’s computer, so she can keep her data
+                secure. This is nothing fancy compared to other tech that exists
+                in 2050.
+              </p>
+              <p>
+                Now that they are retired, they are selling their house and
+                moving to Florida. Lets see how she is able to interact with
+                government...
+              </p>
+            </div>
+          </split>
+        </section>
+        <section className="interface">
+          <Image src="/bev/Home.svg" width="602" height="432" />
+        </section>
+        <section className="interface">
+          <Image src="/bev/Task.svg" width="602" height="432" />
+        </section>
       </main>
 
       <Footer />

@@ -7,6 +7,10 @@ body {
   font-family: "M PLUS 2", sans-serif;
 }
 
+:root {
+  --font-size-large: 1.35rem;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -144,4 +148,30 @@ ul li:before {
   transform: translateY(-0.5ex) translateX(-0.5rem);
   mix-blend-mode: darken;
   flex-shrink: 0;
+}
+
+split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  font-size: var(--font-size-large);
+}
+
+section.interface {
+  width: 100%;
+  min-height: 100vh;
+  --color-artifact-bg: #5FA094;
+  background-color: var(--color-artifact-bg);
+  box-shadow: -999px 0px 0px 0px var(--color-artifact-bg),
+               999px 0px 0px 0px var(--color-artifact-bg);
+  display: grid;
+  /* place-items: end; */
+  padding: 0;
+}
+
+section.interface img {
+  width: 100%;height: auto;
+  /* border: 1px solid #2af; */
+  /* border-radius: 5vw; */
 }
