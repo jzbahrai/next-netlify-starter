@@ -11,6 +11,8 @@ export default function Footer() {
           height={45}
           alt="Notify Logo"
         />
+        <span>GC Notify</span>
+        <span style={{ marginLeft: "auto" }}>Speculative design 2024</span>
       </footer>
     </>
   );
