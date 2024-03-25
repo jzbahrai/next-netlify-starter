@@ -14,7 +14,7 @@ export default function Home() {
         <section>
           <div>
             <h1>
-              Notify in 2050, is a Government adaptive AI tool that is the most
+              Notify in 2050, is a Government adaptive API tool that is the most
               reliable method of delivery to public recipients
             </h1>
             <p>
@@ -22,7 +22,6 @@ export default function Home() {
               accessible by everyone, from public servants to individuals to
               companies offering services.
             </p>
-            <Link href="/prompt">Next</Link>
           </div>
           <Image src="svgs/shape-a.svg" fill className="bg-image" />
         </section>
@@ -45,7 +44,7 @@ export default function Home() {
               <h3>Frustration with gov process.</h3>
               <p>
                 Government and the public decided to embrace customized third
-                party services to interact with government. this really shifted
+                party services to interact with government. This really shifted
                 the trust struggles.
               </p>
             </cardbody>
@@ -168,10 +167,37 @@ export default function Home() {
           </split>
         </section>
         <section className="interface">
-          <Image src="/bev/Home.svg" width="602" height="432" />
+          <figure>
+            <Image
+              src="/bev/Home.svg"
+              width="602"
+              height="432"
+              alt="An interface with a big prompt input box, three lists for recent current and possible tasks to be completed. This seems like a home screen or a dashboard that someone would use to organize their life events"
+            />
+            <figcaption>
+              Bev was able to create a customized, home-made tool using software
+              engineering AI. The AI was able to pull in many different APIs,
+              including the GC Notify API to connect many services together. Not
+              only can it help Bev navigate government processes, it also
+              extends to other services.
+            </figcaption>
+          </figure>
         </section>
         <section className="interface">
-          <Image src="/bev/Task.svg" width="602" height="432" />
+          <figure>
+            <Image
+              src="/bev/Task.svg"
+              width="602"
+              height="432"
+              alt="An event named Selling the house. In this event, there are things to be done by the user, and things that have been done by an A. I. assistant."
+            />
+            <figcaption>
+              One of the views of Bev's tool is a detailed task list for bigger
+              life events. Bev needed to sell her house. Her tool was able to
+              find important steps to do. It was even able to complete some of
+              them, but delegate the one's it was not able to complete.
+            </figcaption>
+          </figure>
         </section>
       </main>
 

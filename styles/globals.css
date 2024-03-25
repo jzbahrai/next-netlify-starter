@@ -109,6 +109,8 @@ card {
   justify-content: space-between;
   max-width: 600px;
   gap: 4rem;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 card h3 {
@@ -128,7 +130,7 @@ ul {
   font-size: 1.5rem;
   line-height: 2;
   padding: 0;
-  width: 50ch;
+  max-width: 50ch;
 }
 
 ul li {
@@ -170,8 +172,16 @@ section.interface {
   padding: 0;
 }
 
-section.interface img {
-  width: 100%;height: auto;
+section.interface figure {
+  width: 100%
   /* border: 1px solid #2af; */
   /* border-radius: 5vw; */
+}
+figure img {
+  width: 100%;height: auto;
+}
+
+figure figcaption {
+  max-width: 60ch;
+  padding: 2rem;
 }
